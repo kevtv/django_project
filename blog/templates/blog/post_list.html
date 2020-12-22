@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="es">
+
+      <head>
+              <title>Page Title</title>
+              <link rel="stylesheet" type="text/css" href="style.css">
+              <meta charset="utf-8">
+              <meta name="viewport" content="width=device-width, initial-scale=1">
+              <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+              <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+              <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+              <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+      </head>
+
+      <!-- The body starts heare -->
+      <body>
+
+            <!-- First division -->
+            <div class="cl1" id="second_head">
+                  <h1>Cardif Clustom <br> <small> <mark> Analytics <mark> </small> </h1>
+
+                  <blockquote class="blockquote">
+                              <p>For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally.</p>
+                              <footer class="blockquote-footer">From WWF's website</footer>
+                  </blockquote>
+
+                  <!-- Setting an image -->
+                  <!-- class="float-left" -->
+                  <!-- class="mx-auto d-block" --> <!-- Centered image -->
+                  <!-- class="img-fluid" --> <!-- Adjust the image to the screen -->
+                  <img src="http://pm1.narvii.com/6584/463beab4d713346cb4969d688030030842f298c8_00.jpg" alt="Girl in a jacket" class="rounded mx-auto d-block img-fluid" width="500" height="300">
+
+            </div>
+
+            <!-- Second division -->
+            <div>
+                  <p>This is the first view for:
+                      <p class= "font-weight-bold">
+                            Clustom System"
+                      </p>
+                  </p>
+            </div>
+
+            <!-- Third division -->
+            <div class="cl1" id="another_div">
+                  <p class="cl2">
+                            Visit <a href="https://bnpparibascardif.com.mx/"> BNP Paribas Cardif México </a>!
+                  </p>
+            </div>
+
+            <!-- Here is where we put the containers -->
+            <!-- mt- adjust the container to text -->
+            <!-- pt- add spaces between the top border line in container
+                  with the text -->
+            <div class="container mt-5 my-5 bg-dark text-white">
+
+                  <h5>My First Bootstrap Container</h5>
+
+            <!-- Only a small pragaph -->
+            <!-- Colors https://getbootstrap.com/docs/4.0/utilities/colors/ -->
+                  <p class="text-danger">
+                    Example of <br> text that is using
+                    <br> the &lt;br&gt; tag to break
+                    <br> a paragraph.
+                    <br> <a href="https://www.datacamp.com/">This text links to datacamp</a>
+                  </p>
+            </div>
+
+            <!-- Here starts a first row -->
+            <div class="row">
+              <!-- When col-sm-4 and col-sm-8 they sum 12 wich is the size of
+              space for columns in page -->
+                <div class="col-sm-3" style="background-color:#82E0AA;">
+                      One column
+                </div>
+                <div class="col-sm-9" style="background-color:lavender;">
+                      Two columns
+                </div>
+            </div>
+
+            <div class="container mt-3 pt-3">
+              <pre class="pre-scrollable bg-secondary text-white">
+                    Text in a pre element
+                    is displayed in a fixed-width
+                    font, and it preserves
+                    both      spaces and
+                    line breaks.
+                    For the
+                    eternity
+                    of the existence
+              </pre>
+            </div>
+
+            <!-- Here we test the jumbotron -->
+            <div class="jumbotron jumbotron-fluid mt-5 my-5 bg-dark text-white">
+                  <div class="container">
+                        <h1>JUMBOTRON</h1>
+                        <img src="http://pm1.narvii.com/6584/463beab4d713346cb4969d688030030842f298c8_00.jpg" alt="Girl in a jacket" class="rounded mx-auto d-block img-fluid">
+                        <p>Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile-first projects on the web.</p>
+                  </div>
+           </div>
+
+           <div class="container">
+                    <h2>Alert Links</h2>
+                    <p>Add the alert-link class to any links inside the alert box to create "matching colored links".</p>
+                    <div class="alert alert-success alert-dismissible fade show">
+                      <button type="button" class="close" data-dismiss="alert">&times;</button>
+                      <strong>Success!</strong> You should <a href="#" class="alert-link">read this message</a>.
+                    </div>
+                    <div class="alert alert-info">
+                      <strong>Info!</strong> You should <a href="#" class="alert-link">read this message</a>.
+                    </div>
+                    <div class="alert alert-warning">
+                      <strong>Warning!</strong> You should <a href="#" class="alert-link">read this message</a>.
+                    </div>
+                    <div class="alert alert-danger">
+                      <strong>Danger!</strong> You should <a href="#" class="alert-link">read this message</a>.
+                    </div>
+                    <div class="alert alert-primary">
+                      <strong>Primary!</strong> You should <a href="#" class="alert-link">read this message</a>.
+                    </div>
+                    <div class="alert alert-secondary">
+                      <strong>Secondary!</strong> You should <a href="#" class="alert-link">read this message</a>.
+                    </div>
+                    <div class="alert alert-dark">
+                      <strong>Dark!</strong> You should <a href="#" class="alert-link">read this message</a>.
+                    </div>
+                    <div class="alert alert-light">
+                      <strong>Light!</strong> You should <a href="#" class="alert-link">read this message</a>.
+                    </div>
+           </div>
+
+           <!-- media Object -->
+           <div class="container mt-3 pt-5">
+                 <h2>Media Object</h2>
+                 <p>Create a media object with the .media and .media-body classes:</p>
+                 <div class="media border p-3">
+                   <img src="http://media.bnpparibascardif.com/image/61/2/test-image-open-graph_13956.28612.png" alt="John Doe" class="mr-3 mt-3 rounded-circle" style="width:60px;">
+                   <div class="media-body">
+                     <h4>John Doe <small><i>Posted on February 19, 2016</i></small></h4>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                   </div>
+                 </div>
+           </div>
+
+           <!-- buttons section -->
+           <div class="container">
+                    <h2>Button States</h2>
+                    <button type="button" class="btn btn-outline-primary">Primary Button</button>
+                    <button type="button" class="btn btn-primary active">Active Primary</button>
+                    <button type="button" class="btn btn-primary" disabled>Disabled Primary</button>
+                    <a href="#" class="btn btn-primary disabled">Disabled Link</a>
+           </div>
+
+           <div class="btn-group btn-group-lg">
+                    <button type="button" class="btn btn-primary">Apple</button>
+                    <button type="button" class="btn btn-primary">Samsung</button>
+                    <button type="button" class="btn btn-primary">Sony</button>
+           </div>
+
+           <div class="btn-group-vertical mt-3 pt-5">
+               <button type="button" class="btn btn-primary">Apple</button>
+               <button type="button" class="btn btn-primary">Samsung</button>
+               <div class="btn-group">
+                   <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                      Sony
+                   </button>
+                   <div class="dropdown-menu">
+                       <a class="dropdown-item" href="#">Tablet</a>
+                       <a class="dropdown-item" href="#">Smartphone</a>
+                   </div>
+               </div>
+           </div>
+
+          <div class='container pt-5'>
+               <span class="badge badge-pill badge-danger">Light</span>
+               <span class="badge badge-pill badge-success">Dark</span>
+               <button type="button" class="btn btn-primary">
+                    Messages <span class="badge badge-light">4</span>
+               </button>
+          </div>
+
+
+          <div class="container pt-5">
+                <h2>Simple Collapsible</h2>
+                <p>Click on the button to toggle between showing and hiding content.</p>
+                <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo">Simple collapsible</button>
+                <div id="demo" class="collapse">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </div>
+          </div>
+
+          <!-- Navigation Bars -->
+          <div class="container-fluid pt-5">
+                <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+                  <!-- Brand/logo -->
+                      <a class="navbar-brand" href="#">
+                        <img src="http://media.bnpparibascardif.com/image/61/2/test-image-open-graph_13956.28612.png" alt="logo" class="rounded mx-auto d-block img-fluid" style="width:40px;">
+                      </a>
+                      <form class="form-inline">
+                          <div class="input-group">
+                            <div class="input-group-prepend">
+                              <span class="input-group-text">@</span>
+                            </div>
+                            <input type="text" class="form-control" placeholder="Username">
+                          </div>
+                        </form>
+                </nav>
+          </div>
+
+          <!-- Forms Section -->
+          <div class="container mt-3 pt-5>"
+                <form action="/action_page.php" class="was-validated">
+                  <div class="form-group">
+                    <label for="email">Email address:</label>
+                    <input type="email" class="form-control" placeholder="Enter email" name="uname" id="email" required>
+                    <div class="valid-feedback">Valid.</div>
+                    <div class="invalid-feedback">Please fill out this field.</div>
+                  </div>
+                  <div class="form-group">
+                    <label for="pwd">Password:</label>
+                    <input type="password" class="form-control" placeholder="Enter password" id="pwd">
+                  </div>
+                  <div class="form-group form-check">
+                    <label class="form-check-label">
+                      <input class="form-check-input" type="checkbox"> Remember me
+                    </label>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+          </div>
+
+          <!-- Inputs like upload and text -->
+          <div class="container pt-5">
+              <div class="form-check-inline">
+                <label class="form-check-label">
+                  <input type="radio" class="form-check-input" name="optradio">Option 1
+                </label>
+              </div>
+              <div class="form-check-inline">
+                <label class="form-check-label">
+                  <input type="radio" class="form-check-input" name="optradio">Option 2
+                </label>
+              </div>
+              <div class="form-check-inline disabled">
+                <label class="form-check-label">
+                  <input type="radio" class="form-check-input" name="optradio" disabled>Option 3
+                </label>
+              </div>
+
+              <div class="container pt-5 mt-3">
+                <h2>Form Control Range and File</h2>
+                <p>Add the .form-control-range class to input type"range" or .form-control-file to input type"file" to style a range control or a file field with full-width:</p>
+                <form action="/action_page.php">
+                  <div class="form-group">
+                    <input type="range" class="form-control-range" name="range">
+                  </div>
+                  <div class="form-group">
+                    <input type="file" class="form-control-file border" name="file">
+                  </div>
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+              </div>
+          </div>
+
+          <!-- Caroussel Shit -->
+          <div id="demo" class="carousel slide" data-ride="carousel">
+            <ul class="carousel-indicators">
+              <li data-target="#demo" data-slide-to="0" class="active"></li>
+              <li data-target="#demo" data-slide-to="1"></li>
+              <li data-target="#demo" data-slide-to="2"></li>
+            </ul>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="la.jpg" alt="Los Angeles" width="1100" height="500">
+                <div class="carousel-caption">
+                  <h3>Los Angeles</h3>
+                  <p>We had such a great time in LA!</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="chicago.jpg" alt="Chicago" width="1100" height="500">
+                <div class="carousel-caption">
+                  <h3>Chicago</h3>
+                  <p>Thank you, Chicago!</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="ny.jpg" alt="New York" width="1100" height="500">
+                <div class="carousel-caption">
+                  <h3>New York</h3>
+                  <p>We love the Big Apple!</p>
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </a>
+          </div>
+
+
+          <!-- Modal Scroll -->
+          <div class="container pt-5">
+            <h2>Modal Scroll Example</h2>
+            <!-- Button to Open the Modal -->
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+              Open modal
+            </button>
+
+            <!-- The Modal -->
+            <div class="modal" id="myModal">
+              <div class="modal-dialog">
+                <div class="modal-content">
+
+                  <!-- Modal Header -->
+                  <div class="modal-header">
+                    <h1 class="modal-title">Modal Heading</h1>
+                    <button type="button" class="close" data-dismiss="modal">×</button>
+                  </div>
+
+                  <!-- Modal body -->
+                  <div class="modal-body">
+                    <h3>Some text to enable scrolling..</h3>
+                    <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+                    <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                  </div>
+
+                  <!-- Modal footer -->
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- PopUp Tooltip -->
+          <div class="container pt-5">
+                  <h3>Tooltip Example</h3>
+                  <a href="#" data-toggle="tooltip" title="Hooray!">Hover over me</a>
+          </div>
+
+          <!-- Toast popup -->
+          <div class="container pt-5">
+            <h3>Toast Example</h3>
+            <p>A toast is like an alert box that is only shown for a couple of seconds when something happens (i.e. when a user clicks on a button, submits a form, etc.).</p>
+            <p>In this example, we use a button to show the toast message.</p>
+
+            <button type="button" class="btn btn-primary" id="myBtn">Show Toast</button>
+
+            <div class="toast">
+              <div class="toast-header">
+                Toast Header
+              </div>
+              <div class="toast-body">
+                Some text inside the toast body
+              </div>
+            </div>
+          </div>
+
+
+          <!-- Progress Bars -->
+          <div class="container pt-5">
+              <div class="progress">
+                    <div class="progress-bar progress-bar-striped bg-dark progress-bar-animated" style="width:70%">
+                      70%
+                    </div>
+              </div>
+          </div>
+
+          <!-- Pagination Section -->
+          <div class="container pt-5">
+                <h2>Pagination</h2>
+                <p>Use utilitiy classes to change the alignment of the pagination:</p>
+                <ul class="pagination justify-content-end">
+                      <li class="page-item"><a class="page-link" href="javascript:void(0);">Previous</a></li>
+                      <li class="page-item"><a class="page-link" href="javascript:void(0);">1</a></li>
+                      <li class="page-item"><a class="page-link" href="javascript:void(0);">2</a></li>
+                      <li class="page-item"><a class="page-link" href="javascript:void(0);">Next</a></li>
+                </ul>
+          </div>
+
+          <!-- Card Section -->
+          <div class="card" style="width:20rem;margin:20px 0 24px 0">
+                <img class="card-img-top" src="http://pm1.narvii.com/6584/463beab4d713346cb4969d688030030842f298c8_00.jpg" alt="image" style="width:100%">
+                <div class="card-body">
+                      <h4 class="card-title">John Doe</h4>
+                      <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+                      <a href="javascript:void(0)" class="btn btn-primary">See Profile</a>
+                </div>
+          </div>
+
+          <div class="container pt-5 mt-3">
+                  <h2>Card Image Overlay</h2>
+                  <p>Turn an image into a card background and use .card-img-overlay to overlay the card's text:</p>
+                  <div class="card img-fluid" style="width:500px">
+                          <img class="card-img-top" src="http://media.bnpparibascardif.com/image/61/2/test-image-open-graph_13956.28612.png" alt="Card image" style="width:100%">
+                          <div class="card-img-overlay">
+                                  <h4 class="card-title">John Doe</h4>
+                                  <p class="card-text">Some example text some example text. Some example text some example text. Some example text some example text. Some example text some example text.</p>
+                                  <a href="#" class="btn btn-primary">See Profile</a>
+                    </div>
+                  </div>
+          </div>
+
+          <!-- List of groups with badges -->
+          <div class="container mt-3">
+                <h2>List Group With Badges</h2>
+                <p>Combine .badge classes with utility/helper classes to add badges inside the list group:</p>
+                <ul class="list-group">
+                  <li class="list-group-item d-flex justify-content-between align-items-center">
+                    Inbox
+                    <span class="badge badge-primary badge-pill">12</span>
+                  </li>
+                  <li class="list-group-item d-flex justify-content-between align-items-center">
+                    Ads
+                    <span class="badge badge-primary badge-pill">50</span>
+                  </li>
+                  <li class="list-group-item d-flex justify-content-between align-items-center">
+                    Junk
+                    <span class="badge badge-primary badge-pill">99</span>
+                  </li>
+                </ul>
+          </div>
+
+            <!-- Here is where the table section begins -->
+            <div class="container pt-5">
+                    <h2>Striped Rows</h2>
+                    <p>The .table-striped class adds zebra-stripes to a table:</p>
+                    <table class="table table-dark table-striped table-sm">
+                      <thead class="thead-light">
+                        <tr>
+                          <th>Firstname</th>
+                          <th>Lastname</th>
+                          <th>Email</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>John</td>
+                          <td>Doe</td>
+                          <td>john@example.com</td>
+                        </tr>
+                        <tr>
+                          <td>Mary</td>
+                          <td>Moe</td>
+                          <td>mary@example.com</td>
+                        </tr>
+                        <tr>
+                          <td>July</td>
+                          <td>Dooley</td>
+                          <td>july@example.com</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                </div>
+
+                <div class="container">
+                    <h2>Contextual Classes</h2>
+                    <p>Contextual classes can be used to color the table, table rows or table cells. The classes that can be used are: .table-primary, .table-success, .table-info, .table-warning, .table-danger, .table-active, .table-secondary, .table-light and .table-dark:</p>
+                    <table class="table table-xl">
+                      <thead class="thead-dark">
+                        <tr>
+                          <th>Firstname</th>
+                          <th>Lastname</th>
+                          <th>Email</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>Default</td>
+                          <td>Defaultson</td>
+                          <td>def@somemail.com</td>
+                        </tr>
+                        <tr class="table-primary">
+                          <td>Primary</td>
+                          <td>Joe</td>
+                          <td>joe@example.com</td>
+                        </tr>
+                        <tr class="table-success">
+                          <td>Success</td>
+                          <td>Doe</td>
+                          <td>john@example.com</td>
+                        </tr>
+                        <tr class="table-danger">
+                          <td>Danger</td>
+                          <td>Moe</td>
+                          <td>mary@example.com</td>
+                        </tr>
+                        <tr class="table-info">
+                          <td>Info</td>
+                          <td>Dooley</td>
+                          <td>july@example.com</td>
+                        </tr>
+                        <tr class="table-warning">
+                          <td>Warning</td>
+                          <td>Refs</td>
+                          <td>bo@example.com</td>
+                        </tr>
+                        <tr class="table-active">
+                          <td>Active</td>
+                          <td>Activeson</td>
+                          <td>act@example.com</td>
+                        </tr>
+                        <tr class="table-secondary">
+                          <td>Secondary</td>
+                          <td>Secondson</td>
+                          <td>sec@example.com</td>
+                        </tr>
+                        <tr class="table-light">
+                          <td>Light</td>
+                          <td>Angie</td>
+                          <td>angie@example.com</td>
+                        </tr>
+                        <tr class="table-dark text-dark">
+                          <td>Dark</td>
+                          <td>Bo</td>
+                          <td>bo@example.com</td>
+                        </tr>
+                      </tbody>
+                    </table>
+              </div>
+
+              <div class="container">
+                        <h2>Responsive Table</h2>
+                        <p>The .table-responsive class creates a responsive table which will scroll horizontally on screens that are less than 992px wide (if needed). When viewing on anything larger than 992px, there is no difference:</p>
+
+                        <div class="table-responsive">
+                          <table class="table table-bordered">
+                            <thead>
+                              <tr>
+                                <th>#</th>
+                                <th>Firstname</th>
+                                <th>Lastname</th>
+                                <th>Age</th>
+                                <th>City</th>
+                                <th>Country</th>
+                                <th>Sex</th>
+                                <th>Example</th>
+                                <th>Example</th>
+                                <th>Example</th>
+                                <th>Example</th>
+                                <th>Example</th>
+                                <th>Example</th>
+                                <th>Example</th>
+                                <th>Example</th>
+                                <th>Example</th>
+                                <th>Example</th>
+                                <th>Example</th>
+                                <th>Example</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <td>1</td>
+                                <td>Anna</td>
+                                <td>Pitt</td>
+                                <td>35</td>
+                                <td>New York</td>
+                                <td>USA</td>
+                                <td>Female</td>
+                                <td>Yes</td>
+                                <td>Yes</td>
+                                <td>Yes</td>
+                                <td>Yes</td>
+                                <td>Yes</td>
+                                <td>Yes</td>
+                                <td>Yes</td>
+                                <td>Yes</td>
+                                <td>Yes</td>
+                                <td>Yes</td>
+                                <td>Yes</td>
+                                <td>Yes</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+              </div>
+
+
+      <!-- Table with Filters -->
+      <div class="container mt-3">
+        <h2>Filterable Table</h2>
+        <p>Type something in the input field to search the table for first names, last names or emails:</p>
+        <input class="form-control" id="myInput" type="text" placeholder="Search..">
+        <br>
+        <table class="table table-bordered">
+          <thead>
+            <tr>
+              <th>Firstname</th>
+              <th>Lastname</th>
+              <th>Email</th>
+            </tr>
+          </thead>
+          <tbody id="myTable">
+            <tr>
+              <td>John</td>
+              <td>Doe</td>
+              <td>john@example.com</td>
+            </tr>
+            <tr>
+              <td>Mary</td>
+              <td>Moe</td>
+              <td>mary@mail.com</td>
+            </tr>
+            <tr>
+              <td>July</td>
+              <td>Dooley</td>
+              <td>july@greatstuff.com</td>
+            </tr>
+            <tr>
+              <td>Anja</td>
+              <td>Ravendale</td>
+              <td>a_r@test.com</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <p>Note that we start the search in tbody, to prevent filtering the table headers.</p>
+      </div>
+
+      <script>
+      $(document).ready(function(){
+        $("#myInput").on("keyup", function() {
+          var value = $(this).val().toLowerCase();
+          $("#myTable tr").filter(function() {
+            $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+          });
+        });
+      });
+      </script>
+
+      </body>
+
+</html>

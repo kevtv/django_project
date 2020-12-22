@@ -17,7 +17,11 @@ python manage.py migrate blog
 python manage.py createsuperuser
 
 
+------------------------------------
+pyanywhere
 
+pip3.8 install --user pythonanywhere
+pa_autoconfigure_django.py --python=3.8 https://github.com/kevtv/django_project.git
 
 
 
